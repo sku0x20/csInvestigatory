@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="csInvestigatory" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/adminApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/csInvestigatory" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="userApp">
+				<Option output="bin/Debug/userApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="F:/QrCode/include/QrCode" />
+		</Compiler>
+		<Linker>
+			<Add library="F:/QrCode/lib/cmake/QrCode/libQrCode.dll.a" />
+			<Add directory="F:/QrCode/lib/cmake/QrCode" />
+		</Linker>
+		<Unit filename="BitBuffer.hpp" />
+		<Unit filename="QrCode.hpp" />
+		<Unit filename="QrSegment.hpp" />
+		<Unit filename="inputclass.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="inputclass.h">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option target="Debug" />
+			<Option target="Release" />
+		</Unit>
+		<Unit filename="mysqlconnect.cpp" />
+		<Unit filename="mysqlconnect.h" />
+		<Unit filename="picosha2.h" />
+		<Unit filename="userApp.cpp">
+			<Option target="userApp" />
+		</Unit>
+		<Unit filename="userAppInput.cpp">
+			<Option target="userApp" />
+		</Unit>
+		<Unit filename="userAppInput.h">
+			<Option target="userApp" />
+		</Unit>
+		<Unit filename="users.cpp" />
+		<Unit filename="users.h" />
+		<Unit filename="userstruct.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

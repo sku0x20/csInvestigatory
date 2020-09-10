@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1547888178 source:c:\users\shambhavi\desktop\bucky c++\csinvestigatory\main.cpp
+	<iostream>
+	<windows.h>
+	<string>
+	<conio.h>
+	"picosha2.h"
+	"users.h"
+	"inputclass.h"
+
+1547890995 source:c:\users\shambhavi\desktop\bucky c++\csinvestigatory\users.cpp
+	"users.h"
+	<iostream>
+	<string>
+	<fstream>
+	<cstring>
+	"userstruct.h"
+
+1546365168 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\users.h
+	<iostream>
+	<vector>
+	<windows.h>
+	"userstruct.h"
+
+1547894136 source:c:\users\shambhavi\desktop\bucky c++\csinvestigatory\inputclass.cpp
+	"inputclass.h"
+	<iostream>
+	<cstring>
+	<fstream>
+	<string>
+	<conio.h>
+	"picosha2.h"
+	"userstruct.h"
+	"users.h"
+
+1546365581 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\inputclass.h
+	<iostream>
+	<fstream>
+	<string>
+	<windows.h>
+	"userstruct.h"
+	"users.h"
+	"mysqlconnect.h"
+
+1546365168 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\userstruct.h
+
+1541217962 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\config.h
+
+1547890368 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\mysqlconnect.h
+	<iostream>
+	<windows.h>
+	<string>
+	"userstruct.h"
+	"users.h"
+
+1547894569 source:c:\users\shambhavi\desktop\bucky c++\csinvestigatory\mysqlconnect.cpp
+	"mysqlconnect.h"
+	<soci/soci.h>
+	<soci/mysql/soci-mysql.h>
+	<iostream>
+	<istream>
+	<ostream>
+	<string>
+	<exception>
+	<vector>
+	<fstream>
+
+1546365168 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\picosha2.h
+	<algorithm>
+	<cassert>
+	<iterator>
+	<sstream>
+	<vector>
+	<fstream>
+
+1547632163 source:c:\users\shambhavi\desktop\bucky c++\csinvestigatory\userapp.cpp
+	<iostream>
+	<windows.h>
+	"userAppInput.h"
+
+1547824464 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\userappinput.h
+	"mysqlconnect.h"
+	<string>
+	<windows.h>
+	"BitBuffer.hpp"
+	"QrCode.hpp"
+
+1547888610 source:c:\users\shambhavi\desktop\bucky c++\csinvestigatory\userappinput.cpp
+	"userAppInput.h"
+	<iostream>
+	<cstdint>
+	<cstdlib>
+	<fstream>
+	"picosha2.h"
+	"mysqlconnect.h"
+	<string>
+	<cstring>
+	<conio.h>
+	<windows.h>
+	"BitBuffer.hpp"
+	"QrCode.hpp"
+
+1546365168 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\bitbuffer.hpp
+	<cstdint>
+	<vector>
+
+1546365168 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\qrcode.hpp
+	<cstdint>
+	<deque>
+	<string>
+	<vector>
+	"QrSegment.hpp"
+
+1546365168 c:\users\shambhavi\desktop\bucky c++\csinvestigatory\qrsegment.hpp
+	<cstdint>
+	<vector>
+	"BitBuffer.hpp"
+
